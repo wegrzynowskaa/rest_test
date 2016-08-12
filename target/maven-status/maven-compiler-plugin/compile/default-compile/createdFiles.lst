@@ -1,0 +1,8 @@
+pl/test/config/CORSFilter.class
+pl/test/controller/MainController.class
+pl/test/service/UserService.class
+pl/test/config/ApplicationConfiguration.class
+pl/test/config/ApplicationInitializer.class
+pl/test/model/User.class
+pl/test/controller/HelloController.class
+pl/test/service/UserServiceImpl.class
