@@ -22,6 +22,7 @@ public class ApplicationConfiguration extends WebMvcConfigurerAdapter {
         viewResolver.setViewClass(JstlView.class);
         viewResolver.setPrefix("/WEB-INF/views/");
         viewResolver.setSuffix(".jsp");
+        System.out.println("LA LA LA LA");
         registry.viewResolver(viewResolver);
     }
 
@@ -34,6 +35,7 @@ public class ApplicationConfiguration extends WebMvcConfigurerAdapter {
     public CommonsMultipartResolver multipartResolver() {
         CommonsMultipartResolver resolver=new CommonsMultipartResolver();
         resolver.setDefaultEncoding("utf-8");
+        System.out.println("LA LA LA LA");
         resolver.setMaxUploadSize(100000);
         return resolver;
     }
